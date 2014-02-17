@@ -91,4 +91,4 @@ the view's frame and color is fixed by default, however you can change it by edi
 
 welcome to contact me: kyfxbl@gmail.com
 
-your PR would be appreciated
+your PR or issues would be appreciated
