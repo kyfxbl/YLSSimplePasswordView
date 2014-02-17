@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180DB70318B1F3B30063CA83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180DB70218B1F3B30063CA83 /* Foundation.framework */; };
+		180DB70518B1F3B30063CA83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180DB70418B1F3B30063CA83 /* CoreGraphics.framework */; };
+		180DB70718B1F3B30063CA83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180DB70618B1F3B30063CA83 /* UIKit.framework */; };
+		180DB73918B1F53F0063CA83 /* YLSSimplePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DB73718B1F53F0063CA83 /* YLSSimplePasswordView.m */; };
+		180DB73D18B1F5470063CA83 /* UIView+SMFrameAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DB73C18B1F5470063CA83 /* UIView+SMFrameAdditions.m */; };
+		180DB74B18B203CB0063CA83 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DB74618B203CB0063CA83 /* FirstViewController.m */; };
+		180DB74C18B203CB0063CA83 /* ScreenLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DB74818B203CB0063CA83 /* ScreenLockViewController.m */; };
+		180DB74D18B203CB0063CA83 /* YLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DB74A18B203CB0063CA83 /* YLSAppDelegate.m */; };
+		180DB76918B206630063CA83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180DB76418B206630063CA83 /* InfoPlist.strings */; };
+		180DB76A18B206630063CA83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DB76618B206630063CA83 /* main.m */; };
+		180DB76B18B206630063CA83 /* YLSSimplePasswordView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180DB76718B206630063CA83 /* YLSSimplePasswordView-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180DB6FF18B1F3B30063CA83 /* YLSSimplePasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLSSimplePasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180DB70218B1F3B30063CA83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180DB70418B1F3B30063CA83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180DB70618B1F3B30063CA83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180DB71B18B1F3B30063CA83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		180DB73618B1F53F0063CA83 /* YLSSimplePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLSSimplePasswordView.h; path = views/YLSSimplePasswordView.h; sourceTree = "<group>"; };
+		180DB73718B1F53F0063CA83 /* YLSSimplePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLSSimplePasswordView.m; path = views/YLSSimplePasswordView.m; sourceTree = "<group>"; };
+		180DB73B18B1F5470063CA83 /* UIView+SMFrameAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SMFrameAdditions.h"; path = "SMFrameAdditions/UIView+SMFrameAdditions.h"; sourceTree = "<group>"; };
+		180DB73C18B1F5470063CA83 /* UIView+SMFrameAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SMFrameAdditions.m"; path = "SMFrameAdditions/UIView+SMFrameAdditions.m"; sourceTree = "<group>"; };
+		180DB74518B203CB0063CA83 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		180DB74618B203CB0063CA83 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		180DB74718B203CB0063CA83 /* ScreenLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenLockViewController.h; sourceTree = "<group>"; };
+		180DB74818B203CB0063CA83 /* ScreenLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenLockViewController.m; sourceTree = "<group>"; };
+		180DB74918B203CB0063CA83 /* YLSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSAppDelegate.h; sourceTree = "<group>"; };
+		180DB74A18B203CB0063CA83 /* YLSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSAppDelegate.m; sourceTree = "<group>"; };
+		180DB76518B206630063CA83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		180DB76618B206630063CA83 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YLSSimplePasswordView/main.m; sourceTree = "<group>"; };
+		180DB76718B206630063CA83 /* YLSSimplePasswordView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "YLSSimplePasswordView-Info.plist"; path = "YLSSimplePasswordView/YLSSimplePasswordView-Info.plist"; sourceTree = "<group>"; };
+		180DB76818B206630063CA83 /* YLSSimplePasswordView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLSSimplePasswordView-Prefix.pch"; path = "YLSSimplePasswordView/YLSSimplePasswordView-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180DB6FC18B1F3B30063CA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DB70518B1F3B30063CA83 /* CoreGraphics.framework in Frameworks */,
+				180DB70718B1F3B30063CA83 /* UIKit.framework in Frameworks */,
+				180DB70318B1F3B30063CA83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180DB6F618B1F3B30063CA83 = {
+			isa = PBXGroup;
+			children = (
+				180DB70818B1F3B30063CA83 /* YLSSimplePasswordView */,
+				180DB74418B203CA0063CA83 /* example */,
+				180DB76218B2064A0063CA83 /* Supporting Files */,
+				180DB70118B1F3B30063CA83 /* Frameworks */,
+				180DB70018B1F3B30063CA83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180DB70018B1F3B30063CA83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180DB6FF18B1F3B30063CA83 /* YLSSimplePasswordView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180DB70118B1F3B30063CA83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180DB70218B1F3B30063CA83 /* Foundation.framework */,
+				180DB70418B1F3B30063CA83 /* CoreGraphics.framework */,
+				180DB70618B1F3B30063CA83 /* UIKit.framework */,
+				180DB71B18B1F3B30063CA83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180DB70818B1F3B30063CA83 /* YLSSimplePasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				180DB73B18B1F5470063CA83 /* UIView+SMFrameAdditions.h */,
+				180DB73C18B1F5470063CA83 /* UIView+SMFrameAdditions.m */,
+				180DB73618B1F53F0063CA83 /* YLSSimplePasswordView.h */,
+				180DB73718B1F53F0063CA83 /* YLSSimplePasswordView.m */,
+			);
+			path = YLSSimplePasswordView;
+			sourceTree = "<group>";
+		};
+		180DB74418B203CA0063CA83 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				180DB74518B203CB0063CA83 /* FirstViewController.h */,
+				180DB74618B203CB0063CA83 /* FirstViewController.m */,
+				180DB74718B203CB0063CA83 /* ScreenLockViewController.h */,
+				180DB74818B203CB0063CA83 /* ScreenLockViewController.m */,
+				180DB74918B203CB0063CA83 /* YLSAppDelegate.h */,
+				180DB74A18B203CB0063CA83 /* YLSAppDelegate.m */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		180DB76218B2064A0063CA83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180DB76318B206630063CA83 /* en.lproj */,
+				180DB76618B206630063CA83 /* main.m */,
+				180DB76718B206630063CA83 /* YLSSimplePasswordView-Info.plist */,
+				180DB76818B206630063CA83 /* YLSSimplePasswordView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180DB76318B206630063CA83 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				180DB76418B206630063CA83 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = YLSSimplePasswordView/en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180DB6FE18B1F3B30063CA83 /* YLSSimplePasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180DB72B18B1F3B30063CA83 /* Build configuration list for PBXNativeTarget "YLSSimplePasswordView" */;
+			buildPhases = (
+				180DB6FB18B1F3B30063CA83 /* Sources */,
+				180DB6FC18B1F3B30063CA83 /* Frameworks */,
+				180DB6FD18B1F3B30063CA83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLSSimplePasswordView;
+			productName = YLSSimplePasswordView;
+			productReference = 180DB6FF18B1F3B30063CA83 /* YLSSimplePasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180DB6F718B1F3B30063CA83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YLS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = yilos;
+			};
+			buildConfigurationList = 180DB6FA18B1F3B30063CA83 /* Build configuration list for PBXProject "YLSSimplePasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180DB6F618B1F3B30063CA83;
+			productRefGroup = 180DB70018B1F3B30063CA83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180DB6FE18B1F3B30063CA83 /* YLSSimplePasswordView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180DB6FD18B1F3B30063CA83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DB76B18B206630063CA83 /* YLSSimplePasswordView-Info.plist in Resources */,
+				180DB76918B206630063CA83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180DB6FB18B1F3B30063CA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180DB74D18B203CB0063CA83 /* YLSAppDelegate.m in Sources */,
+				180DB73D18B1F5470063CA83 /* UIView+SMFrameAdditions.m in Sources */,
+				180DB74C18B203CB0063CA83 /* ScreenLockViewController.m in Sources */,
+				180DB74B18B203CB0063CA83 /* FirstViewController.m in Sources */,
+				180DB76A18B206630063CA83 /* main.m in Sources */,
+				180DB73918B1F53F0063CA83 /* YLSSimplePasswordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180DB76418B206630063CA83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180DB76518B206630063CA83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180DB72918B1F3B30063CA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		180DB72A18B1F3B30063CA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180DB72C18B1F3B30063CA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLSSimplePasswordView/YLSSimplePasswordView-Prefix.pch";
+				INFOPLIST_FILE = "YLSSimplePasswordView/YLSSimplePasswordView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180DB72D18B1F3B30063CA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLSSimplePasswordView/YLSSimplePasswordView-Prefix.pch";
+				INFOPLIST_FILE = "YLSSimplePasswordView/YLSSimplePasswordView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180DB6FA18B1F3B30063CA83 /* Build configuration list for PBXProject "YLSSimplePasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180DB72918B1F3B30063CA83 /* Debug */,
+				180DB72A18B1F3B30063CA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180DB72B18B1F3B30063CA83 /* Build configuration list for PBXNativeTarget "YLSSimplePasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180DB72C18B1F3B30063CA83 /* Debug */,
+				180DB72D18B1F3B30063CA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180DB6F718B1F3B30063CA83 /* Project object */;
+}
