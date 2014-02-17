@@ -74,7 +74,7 @@ you can see example code in project/example, or run the demo in XCode directly
 
 # 3rd-lib
 
-this component use SMFrameAdditions to handle subview frame, you can fetch it at:
+this component use SMFrameAdditions to handle subview frame, it's already included. however, also you can fetch it at:
 <a>https://gist.github.com/nfarina/3412730</a>
 
 # notice
