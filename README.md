@@ -3,6 +3,8 @@ YLSSimplePasswordView
 
 an password input view component for IOS7, it looks like ios7 native screen lock view
 
+<img>https://github.com/kyfxbl/YLSSimplePasswordView/blob/master/images/demo.png</img>
+
 # Getting Started
 ## import
 ```
